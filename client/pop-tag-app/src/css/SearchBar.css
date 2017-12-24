@@ -1,7 +1,50 @@
 input[type=text] {
-  width: 90%;
+  width: 95%;
   float: left;
   margin: 10px 30px;
   outline: none;
   display: block;
+  box-sizing: border-box;
+  border: 2px solid #FF80AB;
+  border-radius: 5px;
+  padding: 18px 20px 18px 60px;
+  font-size: 16px;
+  position: relative;
+}
+
+.searchSubmission {
+    position: relative;
+}
+
+.searchIcon {
+    position: absolute;
+    left: 0;
+    margin-left: 45px;
+    margin-top: 22px;
+    z-index: 2;
+    color: grey;
+}
+
+@media screen and (max-width:1100px) and (min-width:601px) {
+  input[type=text] {
+    width: 92%;
+  }
+}
+
+@media screen and (max-width:600px) and (min-width:401px) {
+  input[type=text] {
+    width: 88%;
+  }
+}
+
+@media screen and (max-width:400px) and (min-width:251px) {
+  input[type=text] {
+    width: 82%;
+  }
+}
+
+@media screen and (max-width:250px) {
+  input[type=text] {
+    width: 75%;
+  }
 }

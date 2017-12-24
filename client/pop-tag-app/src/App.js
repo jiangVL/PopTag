@@ -16,8 +16,9 @@ class App extends Component {
             <header className="popTagSubtitle">Find out what <i className="textColorPink">#hashtags</i> are currently trending.</header>
         </header>
 
-        <SearchBar/>
-
+        <div>
+            <SearchBar/>
+        </div>
         <p className="App-intro">
           To get started, edit <code>src/App.js</code> and save to reload.
         </p>
